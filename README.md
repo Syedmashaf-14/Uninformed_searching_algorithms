@@ -7,8 +7,7 @@ and eventually reconstructs the optimal path.
 To run these scripts, you need Python installed on your system along with the following libraries:
 Matplotlib: For rendering the grid, colors, and animations.
 NumPy: Used for numerical operations and grid manipulation.
-install: pip install matplotlib
-
+install path : pip install matplotlib
 
 
 
