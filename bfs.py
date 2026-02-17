@@ -27,8 +27,15 @@ def bfs_visualized(grid, start, target):
             found = True
             break
 
-        # Note: Added 8-way movement based on your original diagonal directions
-        directions = [(-1, 0), (0, 1), (1, 0), (0, -1), (1, 1), (-1, -1), (1, -1), (-1, 1)]
+        directions = [
+        (-1, 0),   
+        (0, 1),    
+        (1, 0),    
+        (1, 1),    
+        (0, -1),   
+        (-1, -1)   
+        ]
+
         
         for dr, dc in directions:
             nr, nc = row + dr, col + dc
