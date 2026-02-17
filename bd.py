@@ -15,7 +15,15 @@ def bidirectional_visualized(grid, start, goal):
     visited_b = {goal: None} 
     
     states = []
-    directions = [(-1, 0), (0, 1), (1, 0), (0, -1), (1, 1), (-1, -1), (1, -1), (-1, 1)]
+    directions = [
+    (-1, 0),   
+    (0, 1),    
+    (1, 0),    
+    (1, 1),    
+    (0, -1),   
+    (-1, -1)   
+]
+
     intersect_node = None
     final_path = []
 
